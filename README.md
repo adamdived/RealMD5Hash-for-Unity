@@ -3,8 +3,10 @@ In many cases MD5 hashing of a string value does not match in C# and PHP. This s
 
 ###### Usage
 
-`private void Start()
+```
+private void Start()
 {
-    string hash = RealMD5Hash.MD5Php("iononvogliostareinquestomondo2022").ToString();
+    string hash = RealMD5Hash.MD5Php("stringtohash").ToString();
     Debug.Log(hash);
-}`
+}
+```
